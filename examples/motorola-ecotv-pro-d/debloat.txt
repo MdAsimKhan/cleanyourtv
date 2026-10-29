@@ -1,0 +1,51 @@
+# Motorola Eco TV Pro D (KTC hongkong, MediaTek), India, Android TV 11 (API 30), build RTM8.240401.121
+#
+# Apply:   tools\disable.ps1 -TvHost <tv ip> examples\motorola-ecotv-pro-d\debloat.txt
+# Undo:    tools\restore.ps1 -TvHost <tv ip> examples\motorola-ecotv-pro-d\debloat.txt com.google.android.apps.tv.launcherx
+# Everything is DISABLED, not uninstalled. Comment out any line you want to keep.
+#
+# Stock launcher:   com.google.android.apps.tv.launcherx
+# Setup wizard:     com.google.android.tungsten.setupwraith (kept enabled because it owns a saved Wi-Fi profile)
+# Live TV / tuner:  com.mediatek.wwtv.tvcenter, com.mediatek.tvinput
+# Remote services:  com.mediatek.tv.service, com.mediatek.autopair
+#
+# DO NOT disable: com.mediatek.wwtv.tvcenter, com.mediatek.tvinput, com.mediatek.tv.service,
+# com.mediatek.autopair, com.dolby.android.audio.service, or any core android packages.
+# Never launch ktc.factorymenu.ui, mediatek.factorymenu.ui, com.ktc.tv.factory even to test.
+# Only disable them via pm disable-user.
+
+# --- Batch 1: OEM factory test tools, store demo, e-manual
+com.ktc.tv.factory
+ktc.factorymenu.ui
+mediatek.factorymenu.ui
+com.ktc.serialport
+com.electronic.manual
+fusion.android.tv.demo
+com.mstar.android.tv.disclaimercustomization
+
+# --- Batch 2: Telemetry, tracking, auto-installs, promo rows
+android.autoinstalls.config.google.gtvpai
+com.google.android.feedback
+com.google.android.partnersetup
+com.mediatek.android.leanbacklauncher.partnercustomizer
+com.mediatek.android.leanbacklauncher.partnercustomizer.overlay
+
+# --- Batch 3: Unused system services
+com.android.printspooler
+com.android.providers.calendar
+com.google.android.syncadapters.calendar
+
+# --- Batch 4: Preinstalled streaming / media apps not used
+com.amazon.amazonvideo.livingroom
+com.netflix.ninja
+in.startv.hotstar
+com.sonyliv
+com.google.android.videos
+com.google.android.play.games
+com.google.android.youtube.tvmusic
+com.google.android.youtube.tv
+com.jio.web.androidtv
+
+# --- Batch 5: Stock Google TV launcher and setup wizard
+com.google.android.tungsten.setupwraith
+com.google.android.apps.tv.launcherx
