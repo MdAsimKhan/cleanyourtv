@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bing Wallpaper</string>
+    <string name="refresh_now">Refresh Now</string>
+    <string name="updating">Updating daily wallpaper…</string>
+    <string name="updated_success">Wallpaper updated successfully</string>
+    <string name="update_failed">Update failed. Check network.</string>
+    <string name="daily_description">Daily 1080p photographic wallpaper from Microsoft Bing.</string>
+</resources>
