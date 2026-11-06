@@ -23,7 +23,7 @@ of these projects ask for far more than the reference launcher does:
 
 **Jump to:** [Home screens built as their own app](#home-screens-built-as-their-own-app) · [Forks of the launcher](#forks-of-the-launcher) · [Screensavers and add-ons](#screensavers-and-add-ons) · [Tools and companion apps](#tools-and-companion-apps) · [Other platforms: Fire TV and LG webOS](#other-platforms-fire-tv-and-lg-webos) · [Add-ons in this repo](addons/README.md) · [Guides and write-ups](#guides-and-write-ups) · [Find a project by TV brand](#find-a-project-by-tv-brand) · [Add yours](#add-yours)
 
-147 projects so far.
+148 projects so far.
 
 ## Home screens built as their own app
 
@@ -162,6 +162,7 @@ Small apps and scripts that run next to the launcher (or any launcher) and do on
 | [Corner Player](https://github.com/maxhayim/corner-player) ([screenshot](https://github.com/maxhayim/corner-player/blob/main/screenshot.jpg), [issues](https://github.com/maxhayim/corner-player/issues)) | Picture in picture over any app, Live TV or an HDMI input, for your own cameras and streams: a baby monitor or door camera (RTSP or HLS), or a stream from your own M3U playlist, in a small corner window that never takes the remote's keys. Silent by default; a module card for the Clean Your TV launcher. Comes with no channels; network is used only for the addresses you add | MOKA R8G, Android 14 | [maxhayim](https://github.com/maxhayim) |
 | [Kids Mode](https://github.com/maxhayim/kids-mode) ([APK](https://github.com/maxhayim/kids-mode/releases/latest), [screenshot](https://github.com/maxhayim/kids-mode/blob/main/docs/kids-screen.jpg)) | A kids' screen locked with a PIN: big tiles for the apps you choose (YouTube Kids, Scholastic, PBS KIDS and similar start there) and nothing else. It is the home app and hands Home straight to your normal launcher while off; while on, a guard (an accessibility service that sees only which app is in front) sends Settings, other apps and other launchers back to the kids' screen. The PIN is kept only as a salted hash. A module card for the Clean Your TV launcher. Proposed here as an add-on first (#1215). No internet permission | MOKA R8G, Android 14 | [maxhayim](https://github.com/maxhayim) |
 | [QuickVol TV](https://github.com/thenewnano/quickvol-google-tv) | One-press volume presets: the Red, Green, Yellow and Blue buttons set the volume to levels you choose on its own screen, with no rebuild. One accessibility service catches the four buttons (no screen content, no internet permission), and it has a module card for the launcher | Philips UHD Android TV (TPV, MediaTek), Android 14 | [thenewnano](https://github.com/thenewnano) |
+| [Bing Wallpaper](https://github.com/MdAsimKhan/bing-googletv-wallpaper) ([APK](https://github.com/MdAsimKhan/bing-googletv-wallpaper/releases/latest)) | Automatic daily 1080p Microsoft Bing photographic wallpaper stream add-on for the launcher; background JobScheduler task with boot delay; module card with photo title, metadata and manual refresh | Motorola Eco TV Pro D (Android TV 11) | [MdAsimKhan](https://github.com/MdAsimKhan) |
 
 ## Tools and companion apps
 
@@ -241,7 +242,7 @@ By the TV each project was built and tested on. Most of them run on other Androi
 - **Kogan:** [Quay](https://github.com/checkmate-automate/Quay-DebloatedAndroidLauncher)
 - **LG:** [Clean Your TV — LG webOS](https://github.com/Razdva122/clean-your-tv-lg-webos), [CleanYourTV for LG webOS](https://github.com/lasharor/cleanyourtv-WebOS), [CleanYourTV webOS edition](https://github.com/SamuelSHernandez/cleanyourtv-webOS/tree/main/webos), [webOS launcher](https://github.com/OmkarK97/webos-vibehack)
 - **MOKA:** [Corner Player](https://github.com/maxhayim/corner-player), [Webmote](https://github.com/maxhayim/webmote), [Kids Mode](https://github.com/maxhayim/kids-mode), [Standby Light](https://github.com/maxhayim/standby-light), [Workplace Home](https://github.com/maxhayim/cleanyourtv/tree/workplace-options)
-- **Motorola:** [Casa](https://github.com/joseorteha/casa-tv), [TV Motorola Launcher](https://github.com/kartikcool15/tv-motorola-launcher)
+- **Motorola:** [Casa](https://github.com/joseorteha/casa-tv), [TV Motorola Launcher](https://github.com/kartikcool15/tv-motorola-launcher), [Bing Wallpaper](https://github.com/MdAsimKhan/bing-googletv-wallpaper)
 - **MYO:** [MYO Launcher](https://github.com/faustinoaq/myo-launcher)
 - **NVIDIA Shield:** [Vibe Launcher](https://github.com/maydings/vibe-launcher)
 - **OnePlus:** [Apple TV Frosted Glass for OnePlus TV](https://github.com/sireesh0204-stack/cleanyourtv/tree/backup/oneplus-apple-frosted-glass), [KinoDock](https://github.com/vedraj360/kinodock)
